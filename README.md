@@ -1,5 +1,7 @@
-# CORD-19-Vaccination
+# CORD-19-Vaccination Dataset
 CORD-19-Vaccination dataset
+
+## Download the dataset
 
 Please use the following Python code to download and extract the dataset.
 
