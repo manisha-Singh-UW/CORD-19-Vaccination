@@ -1,0 +1,83 @@
+
+SELECT * from cord19 WHERE (
+abstract IS NOT NULL AND
+(pdf_json_files IS NOT NULL OR pmc_json_files IS NOT NULL) AND
+ (publish_time LIKE '%2020%' OR publish_time LIKE '%2021%' OR publish_time LIKE '%2022%')
+AND 
+(
+title LIKE '%مصل%' OR abstract LIKE '%مصل%' OR
+title LIKE '%peyvənd%' OR abstract LIKE '%peyvənd%' OR
+title LIKE '%ваксина%' OR abstract LIKE '%ваксина%' OR
+title LIKE '%vacuna%' OR abstract LIKE '%vacuna%' OR
+title LIKE '%vakcína%' OR abstract LIKE '%vakcína%' OR
+title LIKE '%vaccine%' OR abstract LIKE '%vaccine%' OR
+title LIKE '%Impfung%' OR abstract LIKE '%Impfung%' OR
+title LIKE '%εμβόλιο%' OR abstract LIKE '%εμβόλιο%' OR
+title LIKE '%vaccine%' OR abstract LIKE '%vaccine%' OR
+title LIKE '%vacuna%' OR abstract LIKE '%vacuna%' OR
+title LIKE '%واکسن%' OR abstract LIKE '%واکسن%' OR
+title LIKE '%rokote%' OR abstract LIKE '%rokote%' OR
+title LIKE '%vaccin%' OR abstract LIKE '%vaccin%' OR
+title LIKE '%vacina%' OR abstract LIKE '%vacina%' OR
+title LIKE '%תַרכִּיב%' OR abstract LIKE '%תַרכִּיב%' OR
+title LIKE '%cjepivo%' OR abstract LIKE '%cjepivo%' OR
+title LIKE '%vakcina%' OR abstract LIKE '%vakcina%' OR
+title LIKE '%vaksin%' OR abstract LIKE '%vaksin%' OR
+title LIKE '%vaccino%' OR abstract LIKE '%vaccino%' OR
+title LIKE '%ワクチン%' OR abstract LIKE '%ワクチン%' OR
+title LIKE '%백신%' OR abstract LIKE '%백신%' OR
+title LIKE '%vakcina%' OR abstract LIKE '%vakcina%' OR
+title LIKE '%vaksin%' OR abstract LIKE '%vaksin%' OR
+title LIKE '%vaccin%' OR abstract LIKE '%vaccin%' OR
+title LIKE '%vaksine%' OR abstract LIKE '%vaksine%' OR
+title LIKE '%szczepionka%' OR abstract LIKE '%szczepionka%' OR
+title LIKE '%vacina%' OR abstract LIKE '%vacina%' OR
+title LIKE '%vaccin%' OR abstract LIKE '%vaccin%' OR
+title LIKE '%вакцина%' OR abstract LIKE '%вакцина%' OR
+title LIKE '%vakcína%' OR abstract LIKE '%vakcína%' OR
+title LIKE '%cepivo%' OR abstract LIKE '%cepivo%' OR
+title LIKE '%вакцина%' OR abstract LIKE '%вакцина%' OR
+title LIKE '%vaccin%' OR abstract LIKE '%vaccin%' OR
+title LIKE '%bakuna%' OR abstract LIKE '%bakuna%' OR
+title LIKE '%aşı%' OR abstract LIKE '%aşı%' OR
+title LIKE '%вакцина%' OR abstract LIKE '%вакцина%' OR
+title LIKE '%ویکسین%' OR abstract LIKE '%ویکسین%' OR
+title LIKE '%تلقيح%' OR abstract LIKE '%تلقيح%' OR
+title LIKE '%peyvənd%' OR abstract LIKE '%peyvənd%' OR
+title LIKE '%ваксинация%' OR abstract LIKE '%ваксинация%' OR
+title LIKE '%vacunació%' OR abstract LIKE '%vacunació%' OR
+title LIKE '%očkování%' OR abstract LIKE '%očkování%' OR
+title LIKE '%vaccination%' OR abstract LIKE '%vaccination%' OR
+title LIKE '%Impfung%' OR abstract LIKE '%Impfung%' OR
+title LIKE '%εμβολιασμός%' OR abstract LIKE '%εμβολιασμός%' OR
+title LIKE '%vaccination%' OR abstract LIKE '%vaccination%' OR
+title LIKE '%vacunación%' OR abstract LIKE '%vacunación%' OR
+title LIKE '%واکسیناسیون%' OR abstract LIKE '%واکسیناسیون%' OR
+title LIKE '%rokotus%' OR abstract LIKE '%rokotus%' OR
+title LIKE '%vaccination%' OR abstract LIKE '%vaccination%' OR
+title LIKE '%Vacinación%' OR abstract LIKE '%Vacinación%' OR
+title LIKE '%חיסון%' OR abstract LIKE '%חיסון%' OR
+title LIKE '%cijepljenje%' OR abstract LIKE '%cijepljenje%' OR
+title LIKE '%oltás%' OR abstract LIKE '%oltás%' OR
+title LIKE '%Vaksinasi%' OR abstract LIKE '%Vaksinasi%' OR
+title LIKE '%vaccinazione%' OR abstract LIKE '%vaccinazione%' OR
+title LIKE '%ワクチン%' OR abstract LIKE '%ワクチン%' OR
+title LIKE '%백신 접종%' OR abstract LIKE '%백신 접종%' OR
+title LIKE '%vakcinacija%' OR abstract LIKE '%vakcinacija%' OR
+title LIKE '%vaksinasi%' OR abstract LIKE '%vaksinasi%' OR
+title LIKE '%vaccinatie%' OR abstract LIKE '%vaccinatie%' OR
+title LIKE '%vaksinasjon%' OR abstract LIKE '%vaksinasjon%' OR
+title LIKE '%szczepionka%' OR abstract LIKE '%szczepionka%' OR
+title LIKE '%vacinação%' OR abstract LIKE '%vacinação%' OR
+title LIKE '%vaccinare%' OR abstract LIKE '%vaccinare%' OR
+title LIKE '%вакцинация%' OR abstract LIKE '%вакцинация%' OR
+title LIKE '%očkovanie%' OR abstract LIKE '%očkovanie%' OR
+title LIKE '%cepljenje%' OR abstract LIKE '%cepljenje%' OR
+title LIKE '%вакцинација%' OR abstract LIKE '%вакцинација%' OR
+title LIKE '%vaccination%' OR abstract LIKE '%vaccination%' OR
+title LIKE '%pagbabakuna%' OR abstract LIKE '%pagbabakuna%' OR
+title LIKE '%aşı%' OR abstract LIKE '%aşı%' OR
+title LIKE '%вакцинація%' OR abstract LIKE '%вакцинація%' OR
+title LIKE '%ویکسینیشن%' OR abstract LIKE '%ویکسینیشن%' 
+)
+)
