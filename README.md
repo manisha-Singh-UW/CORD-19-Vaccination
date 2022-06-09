@@ -1,10 +1,10 @@
 # CORD-19-Vaccination
 CORD-19-Vaccination dataset
 
-Do download and extract the dataset, please use the following Python code
+Please use the following Python code to download and extract the dataset.
 
 ```Python
-# Download the CORD-19-Vaccine dataset and unzip
+# Download the CORD-19-Vaccination dataset and unzip
 # Tested on Python 3.9
 
 import requests # if not already installed, please install using 'pip install requests'
