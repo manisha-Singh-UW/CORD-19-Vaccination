@@ -3,6 +3,13 @@ CORD-19-Vaccination dataset
 
 ## Download the dataset
 
+Multiple methods are available to access the dataset. 
+
+A) Instructions to download the file:
+1. Download the dataset from the GitHub repo
+2. Extract to the desired folder
+
+B) Python code to access the dataset
 Please use the following Python code to download and extract the dataset.
 
 ```Python
